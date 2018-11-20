@@ -2,7 +2,7 @@
   "basics": {
     "name": "Lars Benedetto",
     "label": "Programmer",
-    "picture": "",
+    "picture": "https://i.imgur.com/2mZVxbj.jpg",
     "email": "larsbenedetto@gmail.com",
     "phone": "+45 60 53 77 91",
     "website": "http://larsbenedetto.work/",
@@ -28,6 +28,18 @@
     ]
   },
   "work": [
+      {
+      "company": "Too Good To Go",
+      "position": "Android Developer",
+      "website": "https://toogoodtogo.com",
+      "startDate": "2018-10-01",
+      "endDate": "Present",
+      "summary": "Too Good To Go is the world's number 1 app for fighting food waste.",
+      "highlights": [
+        "Build new features for the Android App",
+        "MVP Architecture, RxJava 2, Retrofit 2"
+      ]
+    },
     {
       "company": "Firecracker Software",
       "position": "Software Developer",
@@ -131,7 +143,8 @@
       "level": "",
       "keywords": [
         "Android",
-        "iOS",
+        "RxJava",
+        "Retrofit",
         "Flutter",
         "Swing",
         "Cocos2dx"
