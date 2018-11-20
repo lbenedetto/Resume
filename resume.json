@@ -1,0 +1,153 @@
+{
+  "basics": {
+    "name": "Lars Benedetto",
+    "label": "Programmer",
+    "picture": "",
+    "email": "larsbenedetto@gmail.com",
+    "phone": "+45 60 53 77 91",
+    "website": "http://larsbenedetto.work/",
+    "summary": "I am passionate about mobile application development. I have tried many different types of programming but none have brought quite the same satisfaction as Android development.",
+    "location": {
+      "address": "Danshøjvej 1",
+      "postalCode": "2500",
+      "city": "Valby",
+      "countryCode": "DK",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Lars Benedetto",
+        "url": "https://www.linkedin.com/in/lars-benedetto-63b53814b/"
+      },
+      {
+        "network": "GitHub",
+        "username": "lbenedetto",
+        "url": "https://github.com/lbenedetto"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Firecracker Software",
+      "position": "Software Developer",
+      "website": "https://www.firecrackersw.com/",
+      "startDate": "2018-05-01",
+      "endDate": "2018-08-08",
+      "summary": "Firecracker Software is a United States company that makes word games for iOS, Android, and the Web",
+      "highlights": [
+        "Build the native Android GDPR system for use in all previous and future products",
+        "Wrote mini-games in C++ for integration into new game",
+        "Collaborate with artists to design UI and UX of new game"
+      ]
+    },
+    {
+      "company": "VIP Traders",
+      "position": "Software Developer",
+      "website": "https://www.vipautoimporters.com/",
+      "startDate": "2016-10-01",
+      "endDate": "2018-05-01",
+      "summary": "VIP Traders is a United States company specializing in the import and export of used and slightly-used vehicles and equipment ",
+      "highlights": [
+        "Build company website for customers to access company services",
+        "Build an Android app for scanning VIN bar-codes into an cloud spreadsheet",
+        "Design office automation utilities",
+        "Provide general tech support"
+      ]
+    },
+    {
+      "company": "Spokane Public Schools",
+      "position": "Programming Instructor",
+      "website": "",
+      "startDate": "2014-06-01",
+      "endDate": "2014-08-01",
+      "summary": "Teach middle school age students to program at summer camp",
+      "highlights": [
+        "Designed a lesson plan for teaching approximately 25 students the basics of programming through AppInventor and Scratch"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "TeConnections",
+      "position": "Technician",
+      "website": "",
+      "startDate": "2011-09-01",
+      "endDate": "2013-06-01",
+      "summary": "Spokane Public Schools \"Reuse before Recycle\" program for repairing computers to be distributed to those in need",
+      "highlights": [
+        "Dismantle donated broken computers and assemble the working parts into a computer for redistribution to those in need"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Copenhagen",
+      "area": "Computer Science",
+      "studyType": "Masters",
+      "startDate": "2018-09-03",
+      "endDate": "2020-07-01",
+      "gpa": "~",
+      "courses": []
+    },
+    {
+      "institution": "Eastern Washington University",
+      "area": "Computer Science",
+      "studyType": "Bachelors",
+      "startDate": "2013-09-01",
+      "endDate": "2018-06-08",
+      "gpa": "3.5",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "SQL",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Kotlin",
+        "Dart",
+        "C++",
+        "C",
+        "Python"
+      ]
+    },
+    {
+      "name": "Application Development",
+      "level": "",
+      "keywords": [
+        "Android",
+        "iOS",
+        "Flutter",
+        "Swing",
+        "Cocos2dx"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Danish",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
