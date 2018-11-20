@@ -1,5 +1,9 @@
 sudo hackmyresume build resume.json TO ./generated/resume.all -t ~/node_modules/jsonresume-theme-kendall
-rm ./generated/resume.pdf.html
-rm ./generated/resume.png.html
-rm ./generated/resume.yml
-rm ./generated/resume.json
+cd ./generated/
+rm resume.pdf.html
+rm resume.png.html
+rm resume.yml
+rm resume.json
+mv resume.html index.html
+mv resume.pdf lars-benedetto-resume.pdf
+cd ..
