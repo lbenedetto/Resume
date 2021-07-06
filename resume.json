@@ -1,24 +1,24 @@
 {
   "basics": {
     "name": "Lars Benedetto",
-    "label": "Programmer",
-    "picture": "https://i.imgur.com/2mZVxbj.jpg",
+    "label": "Software Engineer",
+    "picture": "https://i.imgur.com/TTmljO9.png",
     "email": "larsbenedetto@gmail.com",
-    "phone": "+45 60 53 77 91",
+    "phone": "+1 509 499 2028",
     "website": "http://larsbenedetto.work/",
-    "summary": "I am passionate about mobile application development. I have tried many different types of programming but none have brought quite the same satisfaction as Android development.",
+    "summary": "I love designing and building software. I focus primarily on the server, though I also enjoy building Android apps.",
     "location": {
-      "address": "Danshøjvej 1",
-      "postalCode": "2500",
-      "city": "Valby",
-      "countryCode": "DK",
-      "region": ""
+      "address": "2603 W Courtland Ave",
+      "postalCode": "99205",
+      "city": "Spokane",
+      "countryCode": "USA",
+      "region": "Washington"
     },
     "profiles": [
       {
         "network": "LinkedIn",
         "username": "Lars Benedetto",
-        "url": "https://www.linkedin.com/in/lars-benedetto-63b53814b/"
+        "url": "https://www.linkedin.com/in/lars-benedetto/"
       },
       {
         "network": "GitHub",
@@ -28,16 +28,43 @@
     ]
   },
   "work": [
-      {
+    {
+      "company": "Too Good To Go",
+      "position": "Software Engineer",
+      "website": "https://toogoodtogo.com",
+      "startDate": "2019-03-01",
+      "endDate": "Present",
+      "summary": "Too Good To Go is the world's number 1 app for fighting food waste.",
+      "highlights": [
+        "Build features for other backend developers. Example: SNS/SQS integration for message sending. Redis for distributed caching. Spring Aspect annotations to allow other developers to easily inject complex functionality",
+        "Build endpoints for the frontend to use",
+        "Write and maintain Unit and Intergration tests"
+      ]
+    },
+    {
+      "company": "Too Good To Go",
+      "position": "DevOps Engineer",
+      "website": "https://toogoodtogo.com",
+      "startDate": "2020-01-01",
+      "endDate": "2020-12-25",
+      "summary": "Too Good To Go is the world's number 1 app for fighting food waste.",
+      "highlights": [
+        "Manage our AWS infrastructure via the Web UI and Terraform",
+        "Build testing and deploy pipelines with Jenkinsfiles",
+        "Manage Helm charts",
+        "Manage and monitor Kubernetes cluster via ArgoCD and Rancher"
+      ]
+    },
+    {
       "company": "Too Good To Go",
       "position": "Android Developer",
       "website": "https://toogoodtogo.com",
       "startDate": "2018-10-01",
-      "endDate": "Present",
+      "endDate": "2019-06-01",
       "summary": "Too Good To Go is the world's number 1 app for fighting food waste.",
       "highlights": [
         "Build new features for the Android App",
-        "MVP Architecture, RxJava 2, Retrofit 2"
+        "Kotlin, Coroutines"
       ]
     },
     {
@@ -94,15 +121,6 @@
   ],
   "education": [
     {
-      "institution": "University of Copenhagen",
-      "area": "Computer Science",
-      "studyType": "Masters",
-      "startDate": "2018-09-03",
-      "endDate": "2018-10-01",
-      "gpa": "~",
-      "courses": []
-    },
-    {
       "institution": "Eastern Washington University",
       "area": "Computer Science",
       "studyType": "Bachelors",
@@ -116,12 +134,38 @@
   "publications": [],
   "skills": [
     {
+      "name": "Backend Development",
+      "level": "",
+      "keywords": [
+        "Spring",
+        "Elasticsearch",
+        "Redis",
+        "MySql",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Rancher",
+        "Terraform",
+        "Jenkins",
+        "ArgoCD"
+      ]
+    },
+    {
       "name": "Web Development",
       "level": "",
       "keywords": [
         "HTML",
         "CSS",
         "Javascript",
+        "Typescript",
         "SQL",
         "PHP"
       ]
