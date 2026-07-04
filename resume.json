@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Lars Benedetto",
-    "label": "Software Engineer",
+    "label": "Senior Backend / Platform Engineer",
     "picture": "https://i.imgur.com/TTmljO9.png",
     "email": "larsbenedetto@gmail.com",
     "phone": "+1 509 499 2028",
     "website": "http://larsbenedetto.work/",
-    "summary": "I love designing and building software. I focus primarily on the server, though I also enjoy building Android apps.",
+    "summary": "Backend engineer on the Foundation (platform) team at Too Good To Go, owning the core of every Java/Kotlin Spring Boot service in the company. I design the infrastructure other engineers build on — including an annotation-driven SQS messaging stack handling ~100M messages/day across ~1000 queues — and I'm the person who diagnoses the deepest production failures: virtual thread deadlocks, JVM segfaults, and memory issues via heap dump and JFR flamegraph analysis.",
     "location": {
       "address": "2603 W Courtland Ave",
       "postalCode": "99205",
@@ -30,15 +30,16 @@
   "work": [
     {
       "company": "Too Good To Go",
-      "position": "Software Engineer",
+      "position": "Senior Software Engineer, Foundation Team",
       "website": "https://toogoodtogo.com",
-      "startDate": "2019-03-01",
+      "startDate": "2020-12-25",
       "endDate": "Present",
-      "summary": "Too Good To Go is the world's number 1 app for fighting food waste.",
+      "summary": "Too Good To Go is the world's number 1 app for fighting food waste. The Foundation team owns and maintains the core of every Java/Kotlin Spring Boot service across the company.",
       "highlights": [
-        "Build features for other backend developers. Example: SNS/SQS integration for message sending. Redis for distributed caching. Spring Aspect annotations to allow other developers to easily inject complex functionality",
-        "Build endpoints for the frontend to use",
-        "Write and maintain Unit and Intergration tests"
+        "Designed and built an SQS message-processing stack with guaranteed at least once delivery now handling ~100M messages/day across ~1000 queues. Engineers add a Java annotation and queue provisioning in AWS, consumers, retries, and scaling are handled automatically. Deep observability with Grafana.",
+        "Own the platform other backend engineers build on: distributed caching (Redis), messaging (SNS/SQS), and reusable Spring AOP abstractions that let teams inject complex functionality with a single annotation",
+        "Primary responder for production incidents across all JVM services — diagnosed virtual thread deadlocks, tracked down a JVM bug with multithreaded font rendering when using tcmalloc causing production segfaults, and routinely analyze heap dumps and JFR flamegraphs to find memory and performance bottlenecks",
+        "Maintain the GitHub Actions CI/CD workflows"
       ]
     },
     {
@@ -50,9 +51,21 @@
       "summary": "Too Good To Go is the world's number 1 app for fighting food waste.",
       "highlights": [
         "Manage our AWS infrastructure via the Web UI and Terraform",
-        "Build testing and deploy pipelines with Jenkinsfiles",
-        "Manage Helm charts",
-        "Manage and monitor Kubernetes cluster via ArgoCD and Rancher"
+        "Working with Jenkinsfiles, Helm charts, Kubernetes, ArgoCD, Rancher, etc",
+        "Built Apache Camel data pipeline"
+      ]
+    },
+    {
+      "company": "Too Good To Go",
+      "position": "Software Engineer",
+      "website": "https://toogoodtogo.com",
+      "startDate": "2019-03-01",
+      "endDate": "2020-01-01",
+      "summary": "Too Good To Go is the world's number 1 app for fighting food waste.",
+      "highlights": [
+        "Build new features and endpoints for the app and web",
+        "Strangle pattern migrate PHP to Spring Boot",
+        "Design the core of the TGTG service, the Discover Feed endpoint. A highly flexible system allowing backend engineers to easily add new buckets of items, populated by opensearch."
       ]
     },
     {
@@ -60,7 +73,7 @@
       "position": "Android Developer",
       "website": "https://toogoodtogo.com",
       "startDate": "2018-10-01",
-      "endDate": "2019-06-01",
+      "endDate": "2019-03-01",
       "summary": "Too Good To Go is the world's number 1 app for fighting food waste.",
       "highlights": [
         "Build new features for the Android App",
@@ -134,13 +147,27 @@
   "publications": [],
   "skills": [
     {
+      "name": "JVM Performance & Reliability",
+      "level": "",
+      "keywords": [
+        "Heap dump analysis",
+        "JFR",
+        "Flamegraphs",
+        "Virtual threads",
+        "Deadlock diagnosis",
+        "Thread pool tuning",
+        "Production incident response"
+      ]
+    },
+    {
       "name": "Backend Development",
       "level": "",
       "keywords": [
-        "Spring",
+        "Spring Boot",
+        "Event-driven / messaging (SNS/SQS)",
         "Elasticsearch",
         "Redis",
-        "MySql",
+        "MySQL",
         "Microservices"
       ]
     },
